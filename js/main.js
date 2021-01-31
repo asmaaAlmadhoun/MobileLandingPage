@@ -1,5 +1,5 @@
 /* ===================================================================
- * Dazzle - Main JS
+ * Asaas Mobile App - Main JS
  *
  * ------------------------------------------------------------------- */ 
 
@@ -87,6 +87,7 @@
 			center: true,
 			loop: true,
 			nav: false,
+			rtl:true,
 			smartSpeed:450,
 			items: 3,
 			responsive:{
@@ -106,6 +107,7 @@
 			center: true,
 			loop: true,
 			nav: false,
+			rtl:true,
 			smartSpeed:450,
 			startPosition: 2,
 			items: 5,
@@ -212,7 +214,7 @@
       	offset: 200,
       	duration: 600,
       	easing: 'ease-in-sine',
-      	delay: 300,
+      	delay: 200,
 			once: true,
 			disable: 'mobile'
     	});

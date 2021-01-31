@@ -2,7 +2,7 @@
 
 DESCRIPTION:
 
-DAZZLE is a modern and beautiful well crafted responsive template created for showcasing 
+Asaas Mobile App is a modern and beautiful well crafted responsive template created for showcasing
 your software and mobile application. Built with clean and organized css3 and html5 code, 
 this template is very easy to customize. It's mobile ready and retina/hi-dpi ready which 
 means it will look great on any devices from mobile to desktop, sharp and crisp on any screen 
@@ -54,7 +54,7 @@ call ssAjaxChimp() inside the ssInit() function:
 LICENSE:
 
 
-DAZZLE is released under the Creative Commons Attribution 3.0 License
+Asaas Mobile App is released under the Creative Commons Attribution 3.0 License
 (http://creativecommons.org/licenses/by/3.0/). This means that you are free:
 
    to Share - to copy, distribute, display, and perform the work
@@ -101,7 +101,7 @@ Also, keep your Paypal receipt as proof of payment and your good to go.
 
 SUPPORT:
     
-Since DAZZLE is distributed for free, support is not offered. DAZZLE is coded according 
+Since Asaas Mobile App is distributed for free, support is not offered. Asaas Mobile App is coded according
 to current web standards and we did our best to make the template easy to use and modify.
 If you have minimum web development experience, you can easily modify the template. 
 However, If you're still new to HTML and CSS, I suggest that you visit the 

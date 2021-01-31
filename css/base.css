@@ -1,6 +1,6 @@
 /* =================================================================== 
  *
- *  Dazzle v1.0 Base Stylesheet
+ *  Asaas Mobile App v1.0 Base Stylesheet
  *  04-27-2017
  *  ------------------------------------------------------------------
  *
@@ -408,17 +408,17 @@ textarea {
 .row .row {
   width: auto;
   max-width: none;
-  margin-left: -20px;
   margin-right: -20px;
+  margin-left: -20px;
 }
 
 [class*="col-"],
 .bgrid {
-  float: left;
+  float: right;
 }
 
 [class*="col-"]+[class*="col-"].end {
-  float: right;
+  float: left;
 }
 
 [class*="col-"] {
@@ -482,14 +482,14 @@ textarea {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * medium size devices - (_grid.scss)
  * ------------------------------------------------------------------- */
 
 @media only screen and (max-width: 1024px) {
   .row .row {
-    margin-left: -18px;
     margin-right: -18px;
+    margin-left: -18px;
   }
   [class*="col-"] {
     padding: 0 18px;
@@ -541,21 +541,21 @@ textarea {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * tablets - (_grid.scss)
  * ------------------------------------------------------------------- */
 
 @media only screen and (max-width: 768px) {
   .row {
     width: auto;
-    padding-left: 30px;
     padding-right: 30px;
+    padding-left: 30px;
   }
   .row .row {
-    padding-left: 0;
     padding-right: 0;
-    margin-left: -15px;
+    padding-left: 0;
     margin-right: -15px;
+    margin-left: -15px;
   }
   [class*="col-"] {
     padding: 0 15px;
@@ -581,18 +581,18 @@ textarea {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  *  mobile devices - (_grid.scss)
  * ------------------------------------------------------------------- */
 
 @media only screen and (max-width: 600px) {
   .row {
-    padding-left: 25px;
     padding-right: 25px;
+    padding-left: 25px;
   }
   .row .row {
-    margin-left: -10px;
     margin-right: -10px;
+    margin-left: -10px;
   }
   [class*="col-"] {
     padding: 0 10px;
@@ -618,23 +618,23 @@ textarea {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * small mobile devices - (_grid.scss)
  * ------------------------------------------------------------------- */
 
 @media only screen and (max-width: 400px) {
   .row .row {
-    padding-left: 0;
     padding-right: 0;
-    margin-left: 0;
+    padding-left: 0;
     margin-right: 0;
+    margin-left: 0;
   }
   [class*="col-"] {
     width: 100% !important;
     float: none !important;
     clear: both !important;
-    margin-left: 0;
     margin-right: 0;
+    margin-left: 0;
     padding: 0;
   }
   [class*="col-"]+[class*="col-"].end {
@@ -676,7 +676,7 @@ textarea {
 
 
 /**
- * Clearing for block grid columns. Allow columns with 
+ * Clearing for block grid columns. Allow columns with
  * different heights to align properly.
  */
 
@@ -689,7 +689,7 @@ textarea {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * medium size devices - (_grid.scss)
  * ------------------------------------------------------------------- */
 
@@ -726,7 +726,7 @@ textarea {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * tablets - (_grid.scss)
  * ------------------------------------------------------------------- */
 
@@ -763,7 +763,7 @@ textarea {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * mobile devices - (_grid.scss)
  * ------------------------------------------------------------------- */
 
@@ -800,7 +800,7 @@ textarea {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * stack on small mobile devices - (_grid.scss)
  * ------------------------------------------------------------------- */
 
@@ -809,8 +809,8 @@ textarea {
     width: 100% !important;
     float: none !important;
     clear: both !important;
-    margin-left: 0;
     margin-right: 0;
+    margin-left: 0;
   }
 }
 
@@ -871,24 +871,24 @@ textarea {
 }
 
 .text-left {
-  text-align: left;
-}
-
-.text-right {
   text-align: right;
 }
 
-.pull-left {
-  float: left;
+.text-right {
+  text-align: left;
 }
 
-.pull-right {
+.pull-left {
   float: right;
 }
 
+.pull-right {
+  float: left;
+}
+
 .align-center {
-  margin-left: auto;
   margin-right: auto;
+  margin-left: auto;
   text-align: center;
 }
 
